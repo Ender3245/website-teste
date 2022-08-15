@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu-photo{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.menu-tranformer{
+    background-color: #505050;
+    display: flex;
+    padding: 8px;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.menu-tranformer > section{
+  padding-right: 10px;
+  color: white;
+  margin: 3px;
+
+}
+.menu-tranformer section button{
+    background-color: #505050;
+    border: none;
+}
+.menu-icon{
+    margin-right: 20px;
+}
+
+
